@@ -1,0 +1,26 @@
+{
+  "name": "curry-and-pipe",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Léo Le Bras <leolebras@wino.fr> (https://github.com/LeoLeBras/)",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "format": "prettier --write '**/*.{ts,js}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winoteam/technical-challenges.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "jest": "^26.1.0",
+    "prettier": "2.0.5",
+    "ts-jest": "^26.1.1",
+    "typescript": "3.9.5"
+  },
+  "dependencies": {
+    "polished": "^3.0.3",
+    "ts-node": "^8.10.2"
+  }
+}
